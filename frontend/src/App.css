@@ -1,0 +1,29 @@
+body{
+    background-color: black !important;
+}
+.container{
+    padding: 30px;
+    display: grid;
+    gap: 3;
+    grid-template-columns: repeat(4, 4fr);
+    margin: 0 !important;
+}
+.card{
+    background-color: #333333 !important;
+    padding: 6px;
+    height: 45vh;
+    margin-left: 25px;
+}
+.card > .body{
+   color: beige; 
+   margin-top: 10px;
+   padding: 5px;
+}
+.touch{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    width: 40%;
+    height: 60vh;
+    background: #FFF;
+}
